@@ -96,10 +96,12 @@ main{
 }
 .teams-img img{
   /* height: 90%; */
+  
 }
 .teams-content{
   /* padding-right: 60px; */
   padding-left: 60px;
+  margin-top: 50px;
 }
 .quick{
   color: #727272;
@@ -225,6 +227,18 @@ margin-top: 50px;
   justify-content: space-evenly;
 margin: 50px auto;
 }
+.footer{
+  border-radius: 8px;
+  background: #FFF4E7;
+  height: 100px;
+  margin: 150px 100px;
+}
+.footer h3{
+  text-align: center;
+  padding-top: 40px;
+  color: #424242;
+  font-size: 1.2rem;
+}
 
 /* media query---- */
 /* mobile device----- */
@@ -288,6 +302,13 @@ margin: 50px auto;
   }
   .sponsors{
     margin-top: 50px;
+  }
+  .footer{
+    width: 100%;
+    margin: 40px auto;
+  }
+  .footer h3{
+    font-size: 8px;
   }
 }
 /* tablet or medium devices--- */
