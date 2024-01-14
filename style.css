@@ -269,11 +269,11 @@ margin: 50px auto;
     margin: 20px 20px;
   }
   .features-img img{
-    width: 60%;
+    width: 80%;
   }
   .ten-years-badge{
     margin-left: 30px;
-    width: 150px;
+    width: 50%;
 
   }
   .features-card{
@@ -293,6 +293,10 @@ margin: 50px auto;
   .facts-card-container{
     flex-direction: column;
     /* margin-left: 20%; */
+   
+  }
+  .facts-title-text{
+    margin-right: 50px;
   }
   .sponsors-img-container{
     flex-direction: column;
