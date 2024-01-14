@@ -288,7 +288,6 @@ margin: 50px auto;
   }
   .sponsors{
     margin-top: 50px;
-    margin-left: 60px;
   }
 }
 /* tablet or medium devices--- */
@@ -320,6 +319,7 @@ nav{
 .sponsors-img-container{
   flex-direction: column;
   width: 160px;
+  /* padding-right: 100px; */
   align-items: center;
   gap: 40px;
 }
