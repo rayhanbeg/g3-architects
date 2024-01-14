@@ -123,8 +123,8 @@ font-weight: 700;
  /* width: 100%; */
  margin-top: 80px ;
  gap: 100px;
- margin-left: 120px;
- margin-right: 120px;
+ margin-left: 100px;
+ margin-right: 100px;
 }
 .features-content .features-card{
   padding: 30px;
@@ -180,12 +180,41 @@ margin-top: 50px;
   font-size: 1.5rem;
 }
 
+
+/* ---facts-section--- */
+
+.facts-card-container{
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+}
+.facts-title-text{
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.facts-card-container .facts-card{
+      border-radius: 8px;
+      border: 2px solid #FF900E;
+      padding: 20px;
+}
+.facts-card-container .digit{
+  font-size: 2.8rem;
+  color: #424242;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.facts-card-container p{
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #727272;
+}
+
 /* media query---- */
 /* mobile device----- */
 @media screen and (max-width:576px) {
     header{
-       padding: 20px;
-       width: auto;
+       padding: 50px;
+       width: 100%;
     }
   nav{
     flex-direction: column-reverse;
@@ -194,7 +223,7 @@ margin-top: 50px;
          flex-direction: column;
          /* padding: 70px; */
          /* width: 100%; */
-         padding: 10px;
+         padding-left: 70px;
   }
   .teams-img{
     grid-template-columns: 1fr;
@@ -203,7 +232,7 @@ margin-top: 50px;
   .features-section{
     flex-direction: column;
     width: 400px;
-    margin: 10px 10px;
+    margin: 20px 20px;
   }
   .features-img img{
     width: 60%;
@@ -225,13 +254,33 @@ margin-top: 50px;
   .features-content{
     /* padding-left: 20%; */
   }
+
+  .facts-card-container{
+    flex-direction: column;
+    margin-left: 20%;
+  }
 }
 /* tablet or medium devices--- */
 @media screen and (min-width:576px) and (max-width:960px) {
   header{
     padding: 50px;
+    width: 102%;
+    
  }
 nav{
  flex-direction: column-reverse;
+
+}
+.banner{
+
+}
+.team-section{
+   flex-direction: column;
+}
+.features-section{
+  flex-direction: column;
+}
+.facts-section{
+  margin-left: 20%;
 }
 }
